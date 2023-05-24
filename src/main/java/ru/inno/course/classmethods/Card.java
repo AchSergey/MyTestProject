@@ -1,10 +1,31 @@
 package ru.inno.course.classmethods;
 
 public class Card {
-    String number;
-    String validityPeriod;
-    int cvv;
-    String pinCod;
+    private String number;
+    private String validityPeriod;
+    private int cvv;
+
+    private String pinCod;
+
+    public String getNumber() {
+        return number;
+    }
+
+
+    public String getValidityPeriod() {
+        return validityPeriod;
+    }
+
+
+    public int getCvv() {
+        return cvv;
+    }
+
+
+    public String getPinCod() {
+        return pinCod;
+    }
+
 
     public Card(String number, String validityPeriod, int cvv, String pinCod) {
         this.number = number;

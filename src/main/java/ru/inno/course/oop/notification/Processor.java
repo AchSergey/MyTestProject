@@ -25,6 +25,7 @@ public class Processor {
                 System.out.println("Ничего не нужно делать");
         }
         notifier.notifyUser(usr, "Всё хорошо!");
+        notifier.test();
     }
 }
 
