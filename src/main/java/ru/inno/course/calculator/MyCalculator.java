@@ -37,6 +37,7 @@ public class MyCalculator implements Calculator{
         }
 
         return sum/numbers.size();
+
     }
 
 
