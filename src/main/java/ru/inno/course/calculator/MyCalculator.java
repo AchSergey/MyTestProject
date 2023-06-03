@@ -23,6 +23,10 @@ public class MyCalculator implements Calculator{
 
     @Override
     public double div(int a, int b) {
+        if (b==0) {
+            throw new IllegalArgumentException("На ноль делить нельзя!");
+        }
+
         return (double) a/b;
     }
 

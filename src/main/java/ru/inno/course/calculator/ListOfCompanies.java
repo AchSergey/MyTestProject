@@ -13,6 +13,9 @@ public class ListOfCompanies {
         films1.add("Зеленая миля");
         films1.add("Гарри Поттер");
         films1.add("Одиннадцать друзей Оушен");
+        films1.add("Зеленая миля");
+        films1.add("Гарри Поттер");
+        films1.add("Одиннадцать друзей Оушен");
         company1.setFilms(films1);
         companies.add(company1);
 
